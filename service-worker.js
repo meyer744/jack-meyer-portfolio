@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/jack-meyer-portfolio/precache-manifest.d55fb55f598153c64a347c820d8cc35b.js"
+  "/jack-meyer-portfolio/precache-manifest.0cdf37553e696af517515fb3e02f7850.js"
 );
 
 self.addEventListener('message', (event) => {
