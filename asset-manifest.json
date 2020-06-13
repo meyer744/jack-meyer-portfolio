@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/jack-meyer-portfolio/static/css/main.6177e173.chunk.css",
+    "main.js": "/jack-meyer-portfolio/static/js/main.a7b690e3.chunk.js",
+    "main.js.map": "/jack-meyer-portfolio/static/js/main.a7b690e3.chunk.js.map",
+    "runtime-main.js": "/jack-meyer-portfolio/static/js/runtime-main.9f4cd427.js",
+    "runtime-main.js.map": "/jack-meyer-portfolio/static/js/runtime-main.9f4cd427.js.map",
+    "static/js/2.415bd6de.chunk.js": "/jack-meyer-portfolio/static/js/2.415bd6de.chunk.js",
+    "static/js/2.415bd6de.chunk.js.map": "/jack-meyer-portfolio/static/js/2.415bd6de.chunk.js.map",
+    "index.html": "/jack-meyer-portfolio/index.html",
+    "precache-manifest.d55fb55f598153c64a347c820d8cc35b.js": "/jack-meyer-portfolio/precache-manifest.d55fb55f598153c64a347c820d8cc35b.js",
+    "service-worker.js": "/jack-meyer-portfolio/service-worker.js",
+    "static/css/main.6177e173.chunk.css.map": "/jack-meyer-portfolio/static/css/main.6177e173.chunk.css.map",
+    "static/js/2.415bd6de.chunk.js.LICENSE.txt": "/jack-meyer-portfolio/static/js/2.415bd6de.chunk.js.LICENSE.txt",
+    "static/media/jack-meyer-pic.jpg": "/jack-meyer-portfolio/static/media/jack-meyer-pic.3e6eadba.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f4cd427.js",
+    "static/js/2.415bd6de.chunk.js",
+    "static/css/main.6177e173.chunk.css",
+    "static/js/main.a7b690e3.chunk.js"
+  ]
+}
