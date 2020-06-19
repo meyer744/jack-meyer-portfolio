@@ -1,13 +1,18 @@
 import React from 'react';
 import './App.css';
-import Navbar from './Components/Navbar';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NewNavbar from './Components/NewNavbar';
 import Home from './Components/Home';
+import ProjectTabs from './Components/ProjectTabs';
+import Resume from './Components/Resume';
 
 function App() {
   return (
     <div className="App">
-    <Navbar />
+    <NewNavbar />
     <Home />
+    <ProjectTabs />
+    <Resume />
     </div>
   );
 }

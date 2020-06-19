@@ -1,3 +1,9 @@
+@import "https://fonts.googleapis.com/css2?family=Sriracha&display=swap";
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -12,51 +18,17 @@ code {
     monospace;
 }
 
-.desktop-menu {
-  color: #fff;
-  height: auto;
-  background-color: #404040;
-  padding: 5px;
-  display: flex;
-  flex-direction: row;
-  border-bottom: solid 2px black;
+.navbar {
+  margin: auto;
 }
 
-.mobile-menu {
-  display: flex;
-  color:white;
-  height: auto;
-  background-color: #404040;
-  padding: 15px;
-  list-style:none;
-  border-bottom: solid 2px black;
-}
-
-.mobile-menu li {
-  list-style: none;
-}
-
-.desktop-menu ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  margin-right: 80px;
-}
-
-.desktop-menu li {
-  padding:10px;
-}
-
-@media screen and (min-width: 501px) {
-.nav-title {
- float: left;
- padding-left:80px;
-}
+.navbar-brand {
+  font-family: 'Sriracha', cursive;
+  color:#AB232B !important;
 }
 
 .profile-pic {
-  height:300px;
+  height:200px;
   max-width:100%;
   margin: auto;
   margin-top: 40px;
@@ -71,6 +43,7 @@ code {
 
 .home {
   background-color: #494D5F;
+  background-image: linear-gradient(to right, #494D5F , #AF222A);
 }
 
 .profile-blurbs {
@@ -85,4 +58,186 @@ code {
 .profile-pic-heading {
   color: white;
   padding-top: 10px;
+  font-family: 'Sriracha', cursive;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.tab-content {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.projects-container-heading {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-family: 'Sriracha', cursive;
+    color: #494D5F;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: auto;
+  flex-wrap: wrap;
+  max-width: 1080px;
+  padding: 18px;
+}
+
+.proj-pic {
+  max-width: max-content;
+  height: 250px;
+  margin-bottom: 10px;
+  object-fit: cover;
+}
+
+.tech-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'Sriracha', cursive;
+}
+
+.tech-list-item {
+  margin-right: 6px;
+}
+
+.tech-list-heading {
+  font-size: 20px;
+  font-weight: 700px;
+  margin-top: 12px;
+}
+
+.cards {
+  border: 2px solid #494D5F;
+  border-radius: 15px;
+  padding: 30px;
+  margin: 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+}
+
+.project-description {
+  margin: auto;
+  max-width: 200px;
+}
+
+.card-title {
+  font-family: 'Sriracha', cursive;
+  font-size: 24px;
+  color: #494D5F !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 300px;
+}
+
+.card-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.resume-container-heading {
+  font-family: 'Sriracha', cursive;
+  color: white;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.resume-container {
+  border: solid 1px #dee2e6;
+  background-color: white;
+  border-radius: 20px;
+  padding: 20px;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.resume-left {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 4;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.resume-right {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.resume-list {
+  display: flex;
+  flex-direction: column;
+  justify-items: flex-start;
+}
+
+.resume-list-item {
+  margin-left: 15px;
+  text-align: left;
+  list-style-type: circle !important;
+}
+
+.resume-header {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  font-size: 20px;
+  font-family: 'Sriracha', cursive;
+  color: #494D5F !important;
+}
+
+.resume-company-header  {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  font-size: 16px;
+  color: #007bff;
+}
+
+.resume-location-header  {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  font-size: 16px;
+  color: #494D5F;
+}
+
+.resume-dates  {
+  display: flex;
+  flex-direction: row;
+  justify-items: flex-start;
+  font-size: 12px;
+  font-family: 'Sriracha', cursive;
+  color: #494D5F;
+}
+
+.resume-section {
+  margin-top: 10px;
+}
+
+#Resume {
+  background-color: #494D5F;
+  padding-bottom: 40px;
+  background-image: linear-gradient(to right, #AF222A, #494D5F);
 }

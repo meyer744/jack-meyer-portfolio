@@ -3,7 +3,7 @@ import ProfilePic from '../Assets/jack-meyer-pic.jpg'
 
 const Home = () => {
     return (
-        <div className="home">        
+        <div id="Home" className="home">        
             <img className="profile-pic" src={ProfilePic} alt="Jack-Meyer"/>
             <h2 className="profile-pic-heading">Jack Meyer</h2>
             <ul className="profile-blurb">
