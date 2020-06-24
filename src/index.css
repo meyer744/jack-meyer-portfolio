@@ -28,10 +28,9 @@ code {
 }
 
 .profile-pic {
+  margin:auto;
   height:200px;
   max-width:100%;
-  margin: auto;
-  margin-top: 40px;
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
 }
@@ -46,19 +45,32 @@ code {
   background-image: linear-gradient(to right, #494D5F , #AF222A);
 }
 
-.profile-blurbs {
-  color: white;
+.home-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 800px;
+  margin: auto;
+  padding: 40px;
 }
 
-.profile-blurb {
-  padding-bottom: 40px;
-  padding-top:15px;
+.home-right {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+}
+
+.profile-blurbs {
+  color: white;
+  list-style: none;
 }
 
 .profile-pic-heading {
   color: white;
   padding-top: 10px;
   font-family: 'Sriracha', cursive;
+  padding-bottom: 15px;
 }
 
 .tabs {
@@ -126,6 +138,12 @@ code {
   flex-direction: column;
   justify-content: center;
   width: 350px;
+  transition: 0.3s ease-in-out;
+}
+
+.cards:hover {
+  transition: 0.3s ease-in-out;
+  transform: scale(1.03);
 }
 
 .project-description {
