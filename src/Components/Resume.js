@@ -81,6 +81,7 @@ return (
                     </div>
                     </div>
         </div>
+        <hr class="solid"></hr>
     </div>
         );
 };

@@ -148,7 +148,7 @@ code {
 
 .project-description {
   margin: auto;
-  max-width: 200px;
+  max-width: 250px;
 }
 
 .card-title {
@@ -255,7 +255,83 @@ code {
 }
 
 #Resume {
-  background-color: #494D5F;
   padding-bottom: 40px;
   background-image: linear-gradient(to right, #AF222A, #494D5F);
+}
+
+hr.solid {
+  border-top: 2px solid #fff;
+}
+
+.contact-container {
+  background-image: linear-gradient(to right, #AF222A, #494D5F);
+  padding: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.label {
+  color: white;
+}
+
+.contact-container-heading {
+  font-family: 'Sriracha', cursive;
+  color: white;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contact-form {
+  width: 500px;
+}
+
+.contact-container-outer-div {
+  background-image: linear-gradient(to right, #AF222A, #494D5F);
+}
+
+.contact-info {
+  color:white;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-info ul {
+  font-family: 'Sriracha', cursive;
+  font-size:18px;
+  list-style: none;
+  text-align: left;
+}
+
+.contact-info ul li a {
+  color:white;
+}
+
+.social-list {
+  display: flex;
+  flex-direction: row;
+}
+
+.social-icon {
+  font-size: 40px;
+  padding: 5px;
+}
+
+.bottom-bar {
+  background-color: #343a40;
+  color: white;
+}
+
+.bottom-bar-list {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: auto;
 }

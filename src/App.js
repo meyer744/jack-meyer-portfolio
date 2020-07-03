@@ -5,6 +5,8 @@ import NewNavbar from './Components/NewNavbar';
 import Home from './Components/Home';
 import ProjectTabs from './Components/ProjectTabs';
 import Resume from './Components/Resume';
+import Contact from './Components/Form';
+import BottomBar from './Components/Bottom-Bar';
 
 function App() {
   return (
@@ -13,6 +15,8 @@ function App() {
     <Home />
     <ProjectTabs />
     <Resume />
+    <Contact />
+    <BottomBar />
     </div>
   );
 }

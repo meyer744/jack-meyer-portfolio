@@ -19,8 +19,8 @@ let projects = ProjectList.map((project) => {
                 </ul>
                 </div>
                 <div className="card-links">
-                <p><a href="{project.url}">Live Preview</a></p>
-                <p><a href="{project.url}">Git Repository</a></p>
+                <a href={project.siteUrl}>Live Preview</a>
+                <p><a href={project.gitUrl}>Git Repository</a></p>
                 </div>
             </div>
         );
