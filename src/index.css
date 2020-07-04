@@ -171,7 +171,7 @@ code {
 .resume-container-heading {
   font-family: 'Sriracha', cursive;
   color: white;
-  padding-top: 20px;
+  padding-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -259,17 +259,12 @@ code {
   background-image: linear-gradient(to right, #AF222A, #494D5F);
 }
 
-hr.solid {
-  border-top: 2px solid #fff;
-}
-
 .contact-container {
   background-image: linear-gradient(to right, #AF222A, #494D5F);
   padding: 40px;
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  align-items: center;
   flex-wrap: wrap;
 }
 
@@ -286,6 +281,9 @@ hr.solid {
 
 .contact-form {
   width: 500px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 .contact-container-outer-div {
@@ -334,4 +332,19 @@ hr.solid {
   flex-wrap: wrap;
   max-width: 900px;
   margin: auto;
+}
+
+.form-section {
+  padding: 5px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.form-button {
+  padding: 5px;
+  margin: 10px;
+  width: 100px;
+  border-radius: 10px;
+  background-color: royalblue;
+  color: white;
 }

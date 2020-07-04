@@ -1,0 +1,210 @@
+[debug] [2020-07-04T02:05:03.438Z] ----------------------------------------------------------------------
+[debug] [2020-07-04T02:05:03.441Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\e1323786\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2020-07-04T02:05:03.441Z] CLI Version:   8.4.3
+[debug] [2020-07-04T02:05:03.442Z] Platform:      win32
+[debug] [2020-07-04T02:05:03.442Z] Node Version:  v10.21.0
+[debug] [2020-07-04T02:05:03.448Z] Time:          Fri Jul 03 2020 22:05:03 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-07-04T02:05:03.448Z] ----------------------------------------------------------------------
+[debug] [2020-07-04T02:05:03.448Z] 
+[debug] [2020-07-04T02:05:03.475Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-07-04T02:05:03.476Z] > authorizing via signed-in user
+[debug] [2020-07-04T02:05:03.476Z] [iam] checking project contact-form-ae515 for permissions ["firebase.projects.get"]
+[debug] [2020-07-04T02:05:03.481Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/contact-form-ae515:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-07-04T02:05:03.755Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 04 Jul 2020 02:05:03 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=54","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-07-04T02:05:04.783Z] [functions] Using node@10 from host.
+[debug] [2020-07-04T02:05:04.798Z] [functions] Watching "C:\Users\e1323786\Documents\React-Project\portfolio-app\functions" for Cloud Functions...
+[debug] [2020-07-04T02:05:05.001Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-07-04T02:05:05.001Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-07-04T02:05:05.001Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-07-04T02:05:05.002Z] DEBUG: [worker-~diagnostic~-3913c556-96b5-498d-9188-baa1413b6e35]: Assigning socketPath: \\?\pipe\C:\Users\e1323786\Documents\React-Project\portfolio-app\functions\18816
+[debug] [2020-07-04T02:05:05.002Z] DEBUG: [worker-~diagnostic~-3913c556-96b5-498d-9188-baa1413b6e35]: BUSY
+[debug] [2020-07-04T02:05:08.309Z] DEBUG: [runtime-status] [18816] Functions runtime initialized. {"cwd":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions","node_version":"10.21.0"}
+[debug] [2020-07-04T02:05:08.311Z] DEBUG: [runtime-status] [18816] Disabled runtime features: undefined
+[debug] [2020-07-04T02:05:08.376Z] DEBUG: [runtime-status] [18816] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-07-04T02:05:08.398Z] DEBUG: [runtime-status] [18816] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:05:08.411Z] DEBUG: [runtime-status] [18816] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2020-07-04T02:05:08.415Z] DEBUG: [runtime-status] [18816] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:05:08.619Z] DEBUG: [runtime-status] [18816] Checked functions.config() {"config":{}}
+[debug] [2020-07-04T02:05:08.619Z] DEBUG: [runtime-status] [18816] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}}
+[debug] [2020-07-04T02:05:08.621Z] DEBUG: [runtime-status] [18816] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:05:08.625Z] DEBUG: [runtime-status] [18816] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-07-04T02:05:08.627Z] DEBUG: [runtime-status] [18816] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:05:08.627Z] DEBUG: [runtime-status] [18816] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[warn] !  It looks like you're trying to access functions.config().gmail but there is no value there. You can learn more about setting up config here: https://firebase.google.com/docs/functions/local-emulator {"metadata":{"emulator":{"name":"functions"},"message":"It looks like you're trying to access functions.config().gmail but there is no value there. You can learn more about setting up config here: https://firebase.google.com/docs/functions/local-emulator"}}
+[warn] !  TypeError: Cannot read property 'email' of undefined
+    at Object.<anonymous> (C:\Users\e1323786\Documents\React-Project\portfolio-app\functions\index.js:6:44)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at C:\Users\e1323786\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:664:33
+    at Generator.next (<anonymous>) {"metadata":{"emulator":{"name":"functions"},"message":"TypeError: Cannot read property 'email' of undefined\n    at Object.<anonymous> (C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\index.js:6:44)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Module.require (internal/modules/cjs/loader.js:692:17)\n    at require (internal/modules/cjs/helpers.js:25:18)\n    at C:\\Users\\e1323786\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:664:33\n    at Generator.next (<anonymous>)"}}
+[warn] !  We were unable to load your functions code. (see above) {"metadata":{"emulator":{"name":"functions"}}}
+[debug] [2020-07-04T02:05:09.004Z] DEBUG: [worker-~diagnostic~-3913c556-96b5-498d-9188-baa1413b6e35]: exited
+[debug] [2020-07-04T02:05:09.005Z] DEBUG: [worker-~diagnostic~-3913c556-96b5-498d-9188-baa1413b6e35]: FINISHED
+[debug] [2020-07-04T02:06:55.999Z] ----------------------------------------------------------------------
+[debug] [2020-07-04T02:06:56.002Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\e1323786\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2020-07-04T02:06:56.002Z] CLI Version:   8.4.3
+[debug] [2020-07-04T02:06:56.002Z] Platform:      win32
+[debug] [2020-07-04T02:06:56.002Z] Node Version:  v10.21.0
+[debug] [2020-07-04T02:06:56.008Z] Time:          Fri Jul 03 2020 22:06:56 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-07-04T02:06:56.008Z] ----------------------------------------------------------------------
+[debug] [2020-07-04T02:06:56.009Z] 
+[debug] [2020-07-04T02:06:56.037Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-07-04T02:06:56.038Z] > authorizing via signed-in user
+[debug] [2020-07-04T02:06:56.039Z] [iam] checking project contact-form-ae515 for permissions ["firebase.projects.get"]
+[debug] [2020-07-04T02:06:56.043Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/contact-form-ae515:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-07-04T02:06:56.596Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 04 Jul 2020 02:06:55 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=58","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-07-04T02:06:57.625Z] [functions] Using node@10 from host.
+[debug] [2020-07-04T02:06:57.636Z] [functions] Watching "C:\Users\e1323786\Documents\React-Project\portfolio-app\functions" for Cloud Functions...
+[debug] [2020-07-04T02:06:57.771Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-07-04T02:06:57.771Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-07-04T02:06:57.771Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-07-04T02:06:57.772Z] DEBUG: [worker-~diagnostic~-d0c41922-fc22-410d-aaaa-8f5acb392cdf]: Assigning socketPath: \\?\pipe\C:\Users\e1323786\Documents\React-Project\portfolio-app\functions\19600
+[debug] [2020-07-04T02:06:57.772Z] DEBUG: [worker-~diagnostic~-d0c41922-fc22-410d-aaaa-8f5acb392cdf]: BUSY
+[debug] [2020-07-04T02:07:00.714Z] DEBUG: [runtime-status] [19600] Functions runtime initialized. {"cwd":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions","node_version":"10.21.0"}
+[debug] [2020-07-04T02:07:00.720Z] DEBUG: [runtime-status] [19600] Disabled runtime features: undefined
+[debug] [2020-07-04T02:07:00.765Z] DEBUG: [runtime-status] [19600] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-07-04T02:07:00.785Z] DEBUG: [runtime-status] [19600] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:07:00.800Z] DEBUG: [runtime-status] [19600] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2020-07-04T02:07:00.804Z] DEBUG: [runtime-status] [19600] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:07:01.000Z] DEBUG: [runtime-status] [19600] Checked functions.config() {"config":{}}
+[debug] [2020-07-04T02:07:01.000Z] DEBUG: [runtime-status] [19600] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}}
+[debug] [2020-07-04T02:07:01.003Z] DEBUG: [runtime-status] [19600] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:07:01.007Z] DEBUG: [runtime-status] [19600] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-07-04T02:07:01.010Z] DEBUG: [runtime-status] [19600] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:07:01.010Z] DEBUG: [runtime-status] [19600] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[warn] !  It looks like you're trying to access functions.config().gmail but there is no value there. You can learn more about setting up config here: https://firebase.google.com/docs/functions/local-emulator {"metadata":{"emulator":{"name":"functions"},"message":"It looks like you're trying to access functions.config().gmail but there is no value there. You can learn more about setting up config here: https://firebase.google.com/docs/functions/local-emulator"}}
+[warn] !  TypeError: Cannot read property 'email' of undefined
+    at Object.<anonymous> (C:\Users\e1323786\Documents\React-Project\portfolio-app\functions\index.js:6:44)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at C:\Users\e1323786\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:664:33
+    at Generator.next (<anonymous>) {"metadata":{"emulator":{"name":"functions"},"message":"TypeError: Cannot read property 'email' of undefined\n    at Object.<anonymous> (C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\index.js:6:44)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Module.require (internal/modules/cjs/loader.js:692:17)\n    at require (internal/modules/cjs/helpers.js:25:18)\n    at C:\\Users\\e1323786\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:664:33\n    at Generator.next (<anonymous>)"}}
+[warn] !  We were unable to load your functions code. (see above) {"metadata":{"emulator":{"name":"functions"}}}
+[debug] [2020-07-04T02:07:01.433Z] DEBUG: [worker-~diagnostic~-d0c41922-fc22-410d-aaaa-8f5acb392cdf]: exited
+[debug] [2020-07-04T02:07:01.433Z] DEBUG: [worker-~diagnostic~-d0c41922-fc22-410d-aaaa-8f5acb392cdf]: FINISHED
+[debug] [2020-07-04T02:13:34.598Z] DEBUG: File C:\Users\e1323786\Documents\React-Project\portfolio-app\functions\index.js changed, reloading triggers
+[debug] [2020-07-04T02:13:35.600Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-07-04T02:13:35.796Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-07-04T02:13:35.796Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-07-04T02:13:35.796Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-07-04T02:13:35.797Z] DEBUG: [worker-~diagnostic~-3a3716c6-d716-48aa-a49c-21e7aaceaa84]: Assigning socketPath: \\?\pipe\C:\Users\e1323786\Documents\React-Project\portfolio-app\functions\9688
+[debug] [2020-07-04T02:13:35.797Z] DEBUG: [worker-~diagnostic~-3a3716c6-d716-48aa-a49c-21e7aaceaa84]: BUSY
+[debug] [2020-07-04T02:13:39.213Z] DEBUG: [runtime-status] [9688] Functions runtime initialized. {"cwd":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions","node_version":"10.21.0"}
+[debug] [2020-07-04T02:13:39.216Z] DEBUG: [runtime-status] [9688] Disabled runtime features: undefined
+[debug] [2020-07-04T02:13:39.264Z] DEBUG: [runtime-status] [9688] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-07-04T02:13:39.291Z] DEBUG: [runtime-status] [9688] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:13:39.305Z] DEBUG: [runtime-status] [9688] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2020-07-04T02:13:39.307Z] DEBUG: [runtime-status] [9688] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:13:39.519Z] DEBUG: [runtime-status] [9688] Checked functions.config() {"config":{}}
+[debug] [2020-07-04T02:13:39.520Z] DEBUG: [runtime-status] [9688] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}}
+[debug] [2020-07-04T02:13:39.521Z] DEBUG: [runtime-status] [9688] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:13:39.524Z] DEBUG: [runtime-status] [9688] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-07-04T02:13:39.526Z] DEBUG: [runtime-status] [9688] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:13:39.526Z] DEBUG: [runtime-status] [9688] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[warn] !  TypeError: Cannot read property 'email' of undefined
+    at Object.<anonymous> (C:\Users\e1323786\Documents\React-Project\portfolio-app\functions\index.js:6:44)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at C:\Users\e1323786\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:664:33
+    at Generator.next (<anonymous>) {"metadata":{"emulator":{"name":"functions"},"message":"TypeError: Cannot read property 'email' of undefined\n    at Object.<anonymous> (C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\index.js:6:44)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Module.require (internal/modules/cjs/loader.js:692:17)\n    at require (internal/modules/cjs/helpers.js:25:18)\n    at C:\\Users\\e1323786\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:664:33\n    at Generator.next (<anonymous>)"}}
+[warn] !  We were unable to load your functions code. (see above) {"metadata":{"emulator":{"name":"functions"}}}
+[debug] [2020-07-04T02:13:39.914Z] DEBUG: [worker-~diagnostic~-3a3716c6-d716-48aa-a49c-21e7aaceaa84]: exited
+[debug] [2020-07-04T02:13:39.914Z] DEBUG: [worker-~diagnostic~-3a3716c6-d716-48aa-a49c-21e7aaceaa84]: FINISHED
+[debug] [2020-07-04T02:13:40.377Z] DEBUG: File C:\Users\e1323786\Documents\React-Project\portfolio-app\functions\index.js changed, reloading triggers
+[debug] [2020-07-04T02:13:41.377Z] DEBUG: [worker-pool] Cleaned up workers for ~diagnostic~: 1 --> 0
+[debug] [2020-07-04T02:13:41.413Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-07-04T02:13:41.414Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-07-04T02:13:41.414Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-07-04T02:13:41.414Z] DEBUG: [worker-~diagnostic~-94515c0f-2371-4500-813a-2ffef6b9ce67]: Assigning socketPath: \\?\pipe\C:\Users\e1323786\Documents\React-Project\portfolio-app\functions\15860
+[debug] [2020-07-04T02:13:41.414Z] DEBUG: [worker-~diagnostic~-94515c0f-2371-4500-813a-2ffef6b9ce67]: BUSY
+[debug] [2020-07-04T02:13:44.621Z] DEBUG: [runtime-status] [15860] Functions runtime initialized. {"cwd":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions","node_version":"10.21.0"}
+[debug] [2020-07-04T02:13:44.625Z] DEBUG: [runtime-status] [15860] Disabled runtime features: undefined
+[debug] [2020-07-04T02:13:44.664Z] DEBUG: [runtime-status] [15860] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-07-04T02:13:44.687Z] DEBUG: [runtime-status] [15860] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:13:44.699Z] DEBUG: [runtime-status] [15860] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2020-07-04T02:13:44.702Z] DEBUG: [runtime-status] [15860] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:13:44.872Z] DEBUG: [runtime-status] [15860] Checked functions.config() {"config":{}}
+[debug] [2020-07-04T02:13:44.872Z] DEBUG: [runtime-status] [15860] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}}
+[debug] [2020-07-04T02:13:44.874Z] DEBUG: [runtime-status] [15860] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:13:44.878Z] DEBUG: [runtime-status] [15860] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-07-04T02:13:44.880Z] DEBUG: [runtime-status] [15860] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:13:44.881Z] DEBUG: [runtime-status] [15860] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[warn] !  TypeError: Cannot read property 'email' of undefined
+    at Object.<anonymous> (C:\Users\e1323786\Documents\React-Project\portfolio-app\functions\index.js:6:44)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at C:\Users\e1323786\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:664:33
+    at Generator.next (<anonymous>) {"metadata":{"emulator":{"name":"functions"},"message":"TypeError: Cannot read property 'email' of undefined\n    at Object.<anonymous> (C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\index.js:6:44)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Module.require (internal/modules/cjs/loader.js:692:17)\n    at require (internal/modules/cjs/helpers.js:25:18)\n    at C:\\Users\\e1323786\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:664:33\n    at Generator.next (<anonymous>)"}}
+[warn] !  We were unable to load your functions code. (see above) {"metadata":{"emulator":{"name":"functions"}}}
+[debug] [2020-07-04T02:13:45.232Z] DEBUG: [worker-~diagnostic~-94515c0f-2371-4500-813a-2ffef6b9ce67]: exited
+[debug] [2020-07-04T02:13:45.232Z] DEBUG: [worker-~diagnostic~-94515c0f-2371-4500-813a-2ffef6b9ce67]: FINISHED
+[debug] [2020-07-04T02:17:46.973Z] ----------------------------------------------------------------------
+[debug] [2020-07-04T02:17:46.975Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\e1323786\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2020-07-04T02:17:46.976Z] CLI Version:   8.4.3
+[debug] [2020-07-04T02:17:46.976Z] Platform:      win32
+[debug] [2020-07-04T02:17:46.976Z] Node Version:  v10.21.0
+[debug] [2020-07-04T02:17:46.982Z] Time:          Fri Jul 03 2020 22:17:46 GMT-0400 (Eastern Daylight Time)
+[debug] [2020-07-04T02:17:46.982Z] ----------------------------------------------------------------------
+[debug] [2020-07-04T02:17:46.982Z] 
+[debug] [2020-07-04T02:17:47.011Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-07-04T02:17:47.012Z] > authorizing via signed-in user
+[debug] [2020-07-04T02:17:47.013Z] [iam] checking project contact-form-ae515 for permissions ["firebase.projects.get"]
+[debug] [2020-07-04T02:17:47.017Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/contact-form-ae515:testIamPermissions  
+ {"permissions":["firebase.projects.get"]}
+[debug] [2020-07-04T02:17:47.306Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sat, 04 Jul 2020 02:17:46 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=56","alt-svc":"h3-29=\":443\"; ma=2592000,h3-27=\":443\"; ma=2592000,h3-25=\":443\"; ma=2592000,h3-T050=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2020-07-04T02:17:48.330Z] [functions] Using node@10 from host.
+[debug] [2020-07-04T02:17:48.342Z] [functions] Watching "C:\Users\e1323786\Documents\React-Project\portfolio-app\functions" for Cloud Functions...
+[debug] [2020-07-04T02:17:48.484Z] DEBUG: [worker-pool] addWorker(~diagnostic~)
+[debug] [2020-07-04T02:17:48.484Z] DEBUG: [worker-pool] Adding worker with key ~diagnostic~, total=1
+[debug] [2020-07-04T02:17:48.484Z] DEBUG: [worker-pool] submitWork(triggerId=)
+[debug] [2020-07-04T02:17:48.484Z] DEBUG: [worker-~diagnostic~-9684cfe7-4829-4468-8671-c004f7396007]: Assigning socketPath: \\?\pipe\C:\Users\e1323786\Documents\React-Project\portfolio-app\functions\7384
+[debug] [2020-07-04T02:17:48.484Z] DEBUG: [worker-~diagnostic~-9684cfe7-4829-4468-8671-c004f7396007]: BUSY
+[debug] [2020-07-04T02:17:51.094Z] DEBUG: [runtime-status] [7384] Functions runtime initialized. {"cwd":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions","node_version":"10.21.0"}
+[debug] [2020-07-04T02:17:51.097Z] DEBUG: [runtime-status] [7384] Disabled runtime features: undefined
+[debug] [2020-07-04T02:17:51.129Z] DEBUG: [runtime-status] [7384] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-07-04T02:17:51.147Z] DEBUG: [runtime-status] [7384] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:17:51.154Z] DEBUG: [runtime-status] [7384] Outgoing network have been stubbed. [{"name":"http","status":"mocked"},{"name":"http","status":"mocked"},{"name":"https","status":"mocked"},{"name":"https","status":"mocked"},{"name":"net","status":"mocked"}]
+[debug] [2020-07-04T02:17:51.156Z] DEBUG: [runtime-status] [7384] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:17:51.306Z] DEBUG: [runtime-status] [7384] Checked functions.config() {"config":{}}
+[debug] [2020-07-04T02:17:51.307Z] DEBUG: [runtime-status] [7384] firebase-functions has been stubbed. {"functionsResolution":{"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}}
+[debug] [2020-07-04T02:17:51.308Z] DEBUG: [runtime-status] [7384] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:17:51.311Z] DEBUG: [runtime-status] [7384] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}
+[debug] [2020-07-04T02:17:51.313Z] DEBUG: [runtime-status] [7384] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.7.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-functions\\lib\\index.js"}
+[debug] [2020-07-04T02:17:51.313Z] DEBUG: [runtime-status] [7384] firebase-admin has been stubbed. {"adminResolution":{"declared":true,"installed":true,"version":"8.13.0","resolution":"C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\node_modules\\firebase-admin\\lib\\index.js"}}
+[warn] !  It looks like you're trying to access functions.config().gmail but there is no value there. You can learn more about setting up config here: https://firebase.google.com/docs/functions/local-emulator {"metadata":{"emulator":{"name":"functions"},"message":"It looks like you're trying to access functions.config().gmail but there is no value there. You can learn more about setting up config here: https://firebase.google.com/docs/functions/local-emulator"}}
+[warn] !  TypeError: Cannot read property 'email' of undefined
+    at Object.<anonymous> (C:\Users\e1323786\Documents\React-Project\portfolio-app\functions\index.js:6:44)
+    at Module._compile (internal/modules/cjs/loader.js:778:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)
+    at Module.load (internal/modules/cjs/loader.js:653:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:585:3)
+    at Module.require (internal/modules/cjs/loader.js:692:17)
+    at require (internal/modules/cjs/helpers.js:25:18)
+    at C:\Users\e1323786\AppData\Roaming\npm\node_modules\firebase-tools\lib\emulator\functionsEmulatorRuntime.js:664:33
+    at Generator.next (<anonymous>) {"metadata":{"emulator":{"name":"functions"},"message":"TypeError: Cannot read property 'email' of undefined\n    at Object.<anonymous> (C:\\Users\\e1323786\\Documents\\React-Project\\portfolio-app\\functions\\index.js:6:44)\n    at Module._compile (internal/modules/cjs/loader.js:778:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:789:10)\n    at Module.load (internal/modules/cjs/loader.js:653:32)\n    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)\n    at Function.Module._load (internal/modules/cjs/loader.js:585:3)\n    at Module.require (internal/modules/cjs/loader.js:692:17)\n    at require (internal/modules/cjs/helpers.js:25:18)\n    at C:\\Users\\e1323786\\AppData\\Roaming\\npm\\node_modules\\firebase-tools\\lib\\emulator\\functionsEmulatorRuntime.js:664:33\n    at Generator.next (<anonymous>)"}}
+[warn] !  We were unable to load your functions code. (see above) {"metadata":{"emulator":{"name":"functions"}}}
+[debug] [2020-07-04T02:17:51.595Z] DEBUG: [worker-~diagnostic~-9684cfe7-4829-4468-8671-c004f7396007]: exited
+[debug] [2020-07-04T02:17:51.596Z] DEBUG: [worker-~diagnostic~-9684cfe7-4829-4468-8671-c004f7396007]: FINISHED

@@ -2,7 +2,7 @@ export const ProjectList = [
     {   
         category: "React",
         title: "Portfolio Page React App",
-        description: "This is a React.js project that I created from scratch using NPM Creat React App. It includeds a projects section that is dynamically poplulated using a JSON style structured data file. It also features a working contact form that uses Node.js and Express on the backend",
+        description: "This is a React.js project that I created from scratch using NPM Creat React App. It includeds a projects section that is dynamically poplulated using a JSON style structured data file. It also features a working contact form that uses Google Firebase on the backend",
         technology: ["react.js", "NPM", "react bootstraps", "javascript", "html", "css", "node.js", "express"],
         projPicUrl: "https://emlaunch.com/wp-content/uploads/2020/06/Portfolio-Page-Pic.jpg",
         siteUrl: "https://meyer744.github.io/jack-meyer-portfolio/",
