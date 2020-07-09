@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8244bd0ea3ddaa32710f4bba390d20ce",
+    "revision": "894c1757924bd4d05b186a175f6c4e40",
     "url": "/jack-meyer-portfolio/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jack-meyer-portfolio/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "7f70c8740ea5a301cd0b",
+    "revision": "f6e574760804cefafa86",
     "url": "/jack-meyer-portfolio/static/css/main.049d498c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jack-meyer-portfolio/static/js/2.de32e63f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7f70c8740ea5a301cd0b",
-    "url": "/jack-meyer-portfolio/static/js/main.0c21eedc.chunk.js"
+    "revision": "f6e574760804cefafa86",
+    "url": "/jack-meyer-portfolio/static/js/main.9104b13c.chunk.js"
   },
   {
     "revision": "fd88414ee83570ef0cf0",
